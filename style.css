@@ -1,20 +1,248 @@
 body {
     width: 100%;
     max-width: 960px;
+    font-weight: 400;
+    font-style: normal;
     margin: 0 auto;
     background-color: white;
+    color: #424242;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.625em;
+}
+
+img{
+    margin-left: 1.625rem;
+    border: 1px solid #3299BB;
+}
+
+h2 {
+    margin-left: 1.625rem;
+    line-height: 2.375rem;
+    margin-bottom: 0.75rem;
+    margin-top: 1.0rem;
+    font-weight: 300;
+    font-size: 2rem;
+    color: #3299BB;
+}
+
+.name {
+    font-size: 1.75rem;
+    margin-top: 1.625rem;
+    margin-left: 1.625rem;
+    margin-bottom: 0.75rem;
+    font-weight: 400;
+    color: #3299BB;
+}
+
+.phone {
+    margin-left: 1.625rem;
+    line-height: 1.75rem;
+}
+
+.email {
+    margin-left: 1.625rem;
+    line-height: 1.75rem;
+}
+
+.website {
+    margin-left: 1.625rem;
+    line-height: 1.75rem;
+}
+
+.birth {
+    margin-left: 1.625rem;
+    line-height: 1.75rem;
+}
+
+.github {
+    margin-left: 1.625rem;
+    line-height: 1.75rem;
+}
+
+.linked {
+    margin-left: 1.625rem;
+    line-height: 1.75rem;
+}
+
+.address {
+    margin-left: 1.625rem;
+    line-height: 1.75rem;
+}
+
+.fa {
+    color: #BCBCBC;
+    padding-right: 0.2rem;
+    width: 24px;
+}
+
+.agreement p{
+    font-size: 0.75em;
+}
+
+.skills {
+    position: relative;
+}
+
+.skill {
+    width: 100%;
+    padding-left: 1.625rem;
+    padding-right: 1.625rem;
+    box-sizing: border-box;
+}
+
+.languages {
+    float: left;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.skill-name {
+    float: left;
+    width: 50%;
+    line-height: 1.75rem;
+    margin: 0;
+}
+
+.skill-value {
+    appearance: none;
+    -webkit-appearance: none;
+    float: left;
+    width: 50%;
+    height: 1.75rem;
+    margin: 0;
 }
 
 .left-column {
+    margin: 1.625em 0em;
     position: relative;
-    width: 33.33%;
+    border-right: 1px solid #3299BB;
+    box-sizing: border-box;
+    width: 40%;
     float: left;
-    background-color: #e2e2e2;
 }
 
 .right-column {
+    box-sizing: border-box;
     position: relative;
-    width: 66.66%;
+    width: 60%;
     float: left;
-    background-color: #f2f2f2;
+}
+
+.lang-name {
+    float: left;
+    width: 30%;
+    margin-left: 1.625rem;
+    line-height: 1.75rem;
+}
+
+.lang-value {
+    float: left;
+    width: 60%;
+    line-height: 1.75rem;
+}
+
+progress[value]::-webkit-progress-bar {    
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #E9E9E9;
+    border-radius: 2px;
+    /*box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;*/
+    margin: 11px 0;
+    height: 4px;
+}
+
+progress[value]::-webkit-progress-value {
+    border-radius: 4px; 
+    background-color: #8FBE00;
+    height: 4px;
+}
+
+article {
+    margin: 0 1.625rem;
+}
+
+.hobby-item {
+    margin: 0 0 0 1.625rem;
+    display: inline-block;
+}
+
+.company {
+    font-weight: 600;
+    float: left;
+    width: 60%;
+    height: 26px;
+}
+
+.role {
+    float: left;
+    width: 100%;
+}
+
+.duration {
+    display: block;
+    width: 40%;
+    float: left;
+    height: 26px;
+    text-align: right;
+}
+
+.work {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1rem 0rem 0rem 1.625rem;
+    font-size: 0.95rem;
+    line-height: 1.2rem;
+    float: left;
+}
+
+.school {
+    font-weight: 600;
+    width: 60%;
+    float: left;
+    height: 26px;
+}
+
+.school-desc {
+    width: 100%;
+    float: left;
+    height: 26px;
+}
+
+.experience article, .education article {
+    border-bottom: 1px solid #3299BB;
+    float: left;
+    margin: 0 1.625rem;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.experience article:last-of-type {
+    border-bottom-width: 0px;
+    margin-bottom: 0;
+} 
+
+.education article:last-of-type {
+    border-bottom-width: 0px;
+    margin-bottom: 0;
+} 
+
+.experience h2 {
+    margin-top: 1.6rem;
+}
+
+.agreement {
+    box-sizing: border-box;
+    line-height: 1.2rem;
+    padding: 0.2rem 1.625rem;
+    width: 100%;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: #424242;
+}
+
+.person {
+    font-weight: 600;
 }
